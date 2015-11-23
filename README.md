@@ -58,3 +58,7 @@ This boilerplate is so simple. (Because it is made from official example!)
 I think,
 
 First, use this, and next,  use `React Redux Startner Kit`!
+
+# LICENSE
+
+MIT
