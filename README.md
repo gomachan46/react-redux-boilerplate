@@ -51,7 +51,7 @@ https://github.com/gaearon/redux-devtools/tree/master/
 
 `React Redux Starter Kit` is very cool starter-kit.
 
-But, it is difficult to beginner like me ;)
+But, it is difficult to use for beginner like me ;)
 
 This boilerplate is so simple. (Because it is made from official example!)
 
