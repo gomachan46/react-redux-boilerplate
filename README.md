@@ -32,9 +32,19 @@ Thank you for a great example！
 
 # Usage
 
+## install
+
+```
+npm install
+```
+
+## run server
+
 ```
 npm start
 ```
+
+and access `http://localhost:3000`.
 
 # redux-devtools
 
