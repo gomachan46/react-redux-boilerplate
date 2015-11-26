@@ -59,6 +59,8 @@ https://github.com/gaearon/redux-devtools/tree/master/
 
 # VS React Redux Starter Kit
 
+https://github.com/davezuko/react-redux-starter-kit/tree/bc477b4f0e967b5a23f1700d82f192ae058bc391
+
 `React Redux Starter Kit` is very cool starter-kit.
 
 But, it is difficult to use for beginner like me ;)
@@ -67,7 +69,7 @@ This boilerplate is so simple. (Because it is made from official example!)
 
 I think,
 
-First, use this, and next,  use `React Redux Startner Kit`!
+First, use this, and next,  use `React Redux Starter Kit`!
 
 # LICENSE
 
