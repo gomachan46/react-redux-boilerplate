@@ -1,21 +1,21 @@
 import React, { PropTypes, Component } from 'react'
-import classnames from 'classnames'
+import {Jumbotron, ButtonGroup, Button } from 'react-bootstrap'
 
 class Counter extends Component {
   render() {
     const { increment, incrementIfOdd, incrementAsync, decrement, counter } = this.props
     return (
-      <p>
-        Clicked: {counter} times
-        {' '}
-        <button onClick={increment}>+</button>
-        {' '}
-        <button onClick={decrement}>-</button>
-        {' '}
-        <button onClick={incrementIfOdd}>Increment if odd</button>
-        {' '}
-        <button onClick={() => incrementAsync()}>Increment async</button>
-      </p>
+        <div>
+            <Jumbotron>
+                <h1>Clicked: {counter} times</h1>
+            </Jumbotron>
+            <ButtonGroup vertical block>
+                <Button onClick={increment}>+</Button>
+                <Button onClick={decrement}>-</Button>
+                <Button onClick={incrementIfOdd}>Increment if odd</Button>
+                <Button onClick={() => incrementAsync()}>Increment async</Button>
+            </ButtonGroup>
+         </div>
     )
   }
 }
