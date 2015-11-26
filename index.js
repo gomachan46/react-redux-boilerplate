@@ -10,9 +10,9 @@ const store = configureStore()
 
 render(
     <Grid>
-      <Provider store={store}>
-        <App />
-      </Provider>
+        <Provider store={store}>
+            <App />
+        </Provider>
     </Grid>,
-      document.getElementById('root')
+    document.getElementById('root')
 )
